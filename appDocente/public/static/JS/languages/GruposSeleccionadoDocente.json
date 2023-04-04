@@ -1,0 +1,19 @@
+{
+    
+    "txtModificar":"Modify Profile",
+    "txtEliminar":"Delete Profile",
+    "txtSalir":"Leave",
+    "txtRespondida":"Unanswered Queries",
+    "txtNoRespondida":"Answered Queries",
+    "txtNombre":"Name",
+    "txtApellido":"Last Name",
+    "txtTitulo":"Title",
+    "txtResponder":"Answer",
+    "btnResponder":"Answer",
+    "txtNombre1":"Name",
+    "txtApellido1":"Last Name",
+    "txtTitulo1":"Title",
+    "txtDescr":"Description",
+    "txtRespuesta":"Answer",
+    "btnVer":"Watch"
+}

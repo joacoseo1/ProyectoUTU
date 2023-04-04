@@ -1,0 +1,254 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+html::-webkit-scrollbar{
+    width: 7px;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    margin:0;
+    margin-bottom: 0;
+    padding:0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.botonAceptar{
+    text-decoration: none;
+    background: rgb(252, 5, 5);
+    color:rgb(255, 255, 255);
+    padding: 0rem 3rem;
+    margin-top: 2rem;
+    margin-left: 118px;
+    font-size: 16px;
+    border-radius: 20px;
+    border:none;
+    margin-bottom: 2rem;
+    display:block;
+    outline: none;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+/* The container must be positioned relative: */
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    margin-left: 67%;
+    margin-bottom: 10%;
+    margin-top: 15%;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .custom-select select {
+    display: none; /*hide original SELECT element: */
+    color: #000000;
+  }
+
+  .select-selected {
+    background-color: rgb(255, 255, 255);
+  }
+
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: #000000;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+
+.custom-select option{
+    height: 30px;
+    border: 8px;
+}
+
+.titulo1{
+        text-align: center;
+        font-size: 4.5rem;
+        font-family: "Dancing Script", arial;   
+        margin-top: 10px;
+        color: white;
+}
+
+.titulo2{
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);
+        margin-bottom: 15px;
+        color: white;
+}            
+.center{
+    text-align: center;
+}
+.formulario{
+    background-image: url(/static/img/menumarcoE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: min(60rem, 100% );/* toma el mas minimo*/
+    margin: 0 320;
+    margin-top: 150px;
+    padding: 2rem;
+    border-radius: 1rem;
+    height: 620px;
+    width: 790px;
+    margin-left: 21%;
+}
+        
+.formulario fieldset{
+    border: none;
+}
+    
+.formulario legend{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: rgb(0, 0, 0);
+}
+        
+.campo{
+    margin-bottom: 1rem;
+}
+        
+.campo label{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+        
+.input-text{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border:none;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+        
+.enviar .boton{
+    padding: 4rem;
+    align-content: center;
+    width: 60%;
+    
+}
+       
+            
+.campo textarea{
+    height: 20rem;
+}
+            
+            
+.botonAceptar{
+    background-color:rgb(255, 0, 0);
+    color:rgb(255, 255, 255);
+    padding: 0rem 3rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    border:none;      
+    margin-bottom: 2rem;
+    display:block;
+    margin-left: 16.5rem;
+}
+.botonAceptar:hover{
+    background-color:rgb(206, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    
+}
+p{
+    font-size: large;
+    font-weight: bold;
+}
+
+.tituloGrupo{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.tituloSeleccionGrupos{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 150px;
+    margin-bottom: -214px;
+}
+

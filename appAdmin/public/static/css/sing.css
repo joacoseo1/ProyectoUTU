@@ -1,0 +1,154 @@
+:root{
+    --white-text: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+.boton{
+    background-color: crimson;
+    color:white;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: .5rem;
+    position: absolute;
+    top: 1%;
+    left:1%;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/static/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+    margin: 0 auto;
+    min-width:600px;
+    max-width:2000px
+}
+
+.tituloRegistroAlumno{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', arial;
+    padding: 20px;
+    margin-top: -30px;
+}
+.tituloRegistroDocente{
+    color: rgb(255, 255, 255);
+    margin-top: -30px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', arial;
+    padding: 20px;
+}
+
+.sing{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    padding: 2.5rem 2rem;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .5);
+}
+
+.cuadroRegistro{
+    border: 1rem;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.sing p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.sing input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.sing input[type="text"],
+.sing input[type="password"],
+.sing input[type="number"],
+.sing input[type="email"],
+.sing input[type="cedula"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 5);
+}
+
+
+.sing input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #e91f1f;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.sing input[type="submit"]:hover{
+    background: rgb(194, 6, 6);
+    color: #fff;
+}
+
+.img{
+    height: 100px;
+}
+
+.yaTengoCuenta{
+    padding: 0px 0px;
+}
+
+.yaTengoCuenta a{
+    color: rgb(66, 248, 230);
+}
+    
+.yaTengoCuenta a:hover{
+        color: rgb(40, 176, 230);
+}
+
+html::-webkit-scrollbar{
+    width: 13px;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: rgb(73, 73, 73);
+    border-radius: 5px;
+}

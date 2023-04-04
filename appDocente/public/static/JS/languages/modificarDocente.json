@@ -1,0 +1,15 @@
+{
+    "txtModificar":"Modify Profile",
+    "txtEliminar":"Delete Profile",
+    "txtSalir":"Leave",
+    "txtmodificar":"Modify",
+    "txtLlenar":"Fill in the Data",
+    "txtNombre":"Name",
+    "txtApellido":"Last Name",
+    "txtEdad":"Age",
+    "txtCambiarContraseña":"Change Password",
+    "txtNoCambiarContraseña":"Do Not Change Password",
+    "txtEnviar":"Send",
+    "titPass":"Password"
+
+}

@@ -1,0 +1,81 @@
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to top, #c41480 0%,  rgb(108, 62, 151) 100%);
+}
+
+html::-webkit-scrollbar{
+    width: 13px;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: rgb(73, 73, 73);
+    border-radius: 5px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+.titulo{
+
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Dancing Script', arial;
+    margin: 0px;
+    padding: -8px;
+}
+
+.nav-bg{
+    background-color:rgba(0, 0, 0, 0.2);
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 10px;
+}
+.navegacion-principal-contenedor {
+    display: flex;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.navegacion-principal-contenedor a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 2.2rem;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navegacion-principal-contenedor a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+   
+}
+
+.img{
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-left: 3px;
+}
+
+.Usuario{
+    font-size: 1.4rem;
+    font-family: 'Tourney', arial;
+    margin-top: 15px;
+    margin-bottom: -5px;
+    padding: 1.2rem;
+    color: rgb(8, 229, 245);
+    
+}
+
+a{
+    margin-left: 2.5rem;
+}

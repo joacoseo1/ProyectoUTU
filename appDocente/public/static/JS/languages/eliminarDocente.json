@@ -1,0 +1,12 @@
+{
+    "txtModificar":"Modify Profile",
+    "txtEliminar":"Delete Profile",
+    "txtSalir":"Leave",
+    "txtLLenar":"You must fill in all the data",
+    "txtTitulo":"Delete Account",
+    "txtCI":"Identification Card",
+    "txtPassword":"Password",
+    "txtCedula":"Identification Card",
+    "btnEliminar":"Delete Account"
+
+}

@@ -1,0 +1,45 @@
+version: '2'
+services:
+  phpdocente:
+    build:
+      context: ./appDocente
+      dockerfile: DockerfileDocente
+    tty: true
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - ./appDocente/:/var/www/html
+  phpalumno:
+    build:
+      context: ./appAlumno
+      dockerfile: DockerfileAlumno
+    tty: true
+    restart: unless-stopped
+    ports:
+      - "8081:80"
+    volumes:
+      - ./appAlumno/:/var/www/html
+  phpadmin:
+    build:
+      context: ./appAdmin
+      dockerfile: DockerfileAdmin
+    tty: true
+    restart: unless-stopped
+    ports:
+      - "8082:80"
+    volumes:
+      - ./appAdmin/:/var/www/html
+  mysql:
+    image: mysql:5.7
+    tty: true 
+    ports:
+      - "3306:3306"
+    restart: unless-stopped 
+    environment:
+      - MYSQL_ROOT_PASSWORD=1234
+      - MYSQL_USER=usuario
+      - MYSQL_PASSWORD=1234
+      - MYSQL_DATABASE=base
+    volumes:
+      - ./mysql:/var/lib/mysql

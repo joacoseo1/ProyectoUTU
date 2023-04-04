@@ -1,0 +1,249 @@
+*{
+    padding :0;
+    margin: 0;
+    border:0;
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+textarea{
+
+    resize: none!important;
+    
+}
+
+.boton{
+    background-color: crimson;
+    color:black;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    border:none;
+}
+
+body{
+    background-image: linear-gradient(to top, #000000 0%,  rgb(235, 196, 110) 70%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-btn {
+    display: flex;
+    width: 95vw;
+    margin: 0 auto;
+    justify-content: flex-start;
+
+    padding: 10px 0;
+
+}
+.contenedor-btn2 {
+    display: flex;
+    width: 95vw;
+    margin: 0 auto;
+    justify-content: right;
+    padding: 10px 0;
+
+}
+
+.contenedor-btn a {
+    height: 40px;
+    background-color: rgb(45, 160, 22);
+    width: 100px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenedor-btn2 a {
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contenedor{
+    height: 90vh;
+    width: 95vw;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 20% 80%;
+    
+}
+
+#contenedor-usuario{
+    border-radius: 10px;
+    background-color: white;
+
+    text-align: center;
+    padding: 15px;
+}
+#contenedor-usuario p {
+    margin: 10px 0; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#mensajes:first-child {
+    margin-top: auto;
+}
+
+#form {
+    display: flex;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#online {
+    color: #538b09;
+    font-weight: bold;
+}
+#offline {
+    color: #ff0707;
+    font-weight: bold;
+}
+.mensaje-enviado {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.mensaje-enviado p {
+    background-color: rgb(46, 104, 230);
+    border-radius: 5px 5px 15px 5px;
+    padding: 10px;
+    color: white;
+    max-width: 80%;
+    margin: 5px 0;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.mensaje-recibido{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.mensaje-recibido-docente{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.mensaje-recibido p {
+    background-color: rgb(56, 65, 85);
+    border-radius: 5px 5px 5px 15px;
+    padding: 10px;
+    color: white;
+    max-width: 80%;
+    margin: 5px 0;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mensaje-recibido-docente p {
+    background-color: rgb(177, 42, 71);
+    border-radius: 5px 5px 5px 15px;
+    padding: 10px;
+    color: white;
+    max-width: 80%;
+    margin: 5px 0;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mensajes {
+    background-color: white;
+    height: 100%;
+    overflow: auto;
+    padding: 10px 20px;
+
+    display: grid;
+    gap: 20px;
+    grid-template-rows: auto 60px;
+}
+
+.ubicacion3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.ubicacion{
+
+    display: flex;
+    justify-content:center;
+    gap: 230px;
+   font-weight: bold;
+
+}
+
+input {
+    outline: none;
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 50px;
+    flex-grow: 1;
+    height: 70%;
+    padding-left: 10px;
+}
+.img{
+    
+    height: 50px;
+    
+    
+}
+
+button {
+    cursor: pointer;
+    width: 150px;
+    background-color: rgb(20, 83, 220);
+    height: 80%;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+form {
+    height: 100%;
+}
+
+#fecha-enviado {
+    color: rgb(20, 83, 220);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#fecha-recibido {
+    color: rgb(56, 65, 85);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

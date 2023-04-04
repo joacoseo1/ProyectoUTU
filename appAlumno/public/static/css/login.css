@@ -1,0 +1,157 @@
+html::-webkit-scrollbar{
+    width: 13px;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: rgb(73, 73, 73);
+    border-radius: 5px;
+}
+
+
+:root{
+    --white-text: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+.boton{
+    background-color: crimson;
+    color:white;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: .5rem;
+    position: absolute;
+    top: 1%;
+    left:1%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/static/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 100vh;
+}
+
+.tituloLoginDocente{
+    color: rgb(255, 255, 255);
+    margin-top: -10px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Dancing Script', arial;
+}
+.tituloLoginAlumno{
+    color: rgb(255, 255, 255);
+    margin-top: -10px;
+    text-align: center;
+    font-size: 4.5rem;
+    font-family: 'Dancing Script', arial;
+}
+
+
+.Login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    padding: 60px 30px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .5);
+}
+
+
+.cuadroLogin{
+    border: 1rem;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.Login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.Login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.Login input[type="text"],
+.Login input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+}
+
+
+
+::placeholder{
+    color: rgba(255, 255, 255, 5);
+}
+
+.Login input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 33px;
+    color: #fff;
+    font-size: 16px;
+    background: #e91f1f;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.Login input[type="submit"]:hover{
+    background: rgb(194, 6, 6);
+    color: #fff;
+}
+
+
+.olvideMiContraseña a{
+    color: rgb(66, 248, 230);
+}
+
+.olvideMiContraseña a:hover{
+    color: rgb(40, 176, 230);
+}
+
+.registrarme{
+    padding: 8px 0px;
+}
+.registrarme a{
+    color: rgb(66, 248, 230);
+}
+
+.registrarme a:hover{
+    color: rgb(40, 176, 230);
+}
+
+.img{
+    height: 100px;
+}
